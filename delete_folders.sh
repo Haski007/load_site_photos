@@ -1,0 +1,1 @@
+find . -type d -not -name "delete_folders.sh" -not -name "photos.php" -print0 |xargs -0 rm -rf
